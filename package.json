@@ -1,0 +1,33 @@
+{
+  "name": "curb",
+  "version": "1.0.0",
+  "description": "Social network for sharing items",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.20",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonBrito/curb_side.git"
+  },
+  "author": "Antonio Brito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonBrito/curb_side/issues"
+  },
+  "homepage": "https://github.com/AntonBrito/curb_side#readme"
+}
