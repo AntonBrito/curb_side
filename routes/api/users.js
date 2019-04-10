@@ -68,7 +68,7 @@ router.post("/login", (req, res) => {
 
         const payload = { id: user.id, name: user.name, avatar: user.avatar }; // Create jwt payload
 
-        // Sign the token
+        // Sign Token
         jwt.sign(
           payload,
           keys.secretOrKey,
